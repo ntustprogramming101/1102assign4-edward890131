@@ -206,7 +206,7 @@ void draw() {
           if (stoneIndex >= 0){
             image(stones[0][stoneIndex], i * SOIL_SIZE, j * SOIL_SIZE);
             if (darkStoneIndex >= 0){
-              image(stones[1][stoneIndex], i * SOIL_SIZE, j * SOIL_SIZE);
+              image(stones[1][darkStoneIndex], i * SOIL_SIZE, j * SOIL_SIZE);
             }
           }
         }
